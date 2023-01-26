@@ -1,9 +1,12 @@
 import './styles.css'
 import facebookIcon from '../../assets/images/facebookIcon.png'
 import UserIconAndTexts from '../../components/UserIconAndTexts'
+import MenuTopBar from '../../components/MenuTopBar'
+
 export default function Home() {
     return (
         <div>
+            <MenuTopBar/>
             <UserIconAndTexts
                 userTitle={"Gabriel Barros"}
                 userDescription={`Bem-vindo ao meu perfil.
